@@ -1,0 +1,13 @@
+### GIT
+git init
+git add .
+
+-Configurar con repositorio remoto
+...
+gti remote add origin
+...
+- y Finalmente
+git add . 
+git commit -m "Cambios"
+git push origin master
+..
