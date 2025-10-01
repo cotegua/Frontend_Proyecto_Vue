@@ -1,17 +1,15 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-
- const titulo = ref<string>("Proyecto VUE con TypeScript");
  
 </script>
 
 <template>
-<h1>{{titulo}} </h1>
+<h1>App.vue</h1>
+ <nav>
+    <RouterLink to="/">INICIO | </RouterLink>
+    <RouterLink to="/nosotros">ACERCA DE NOSOTROS | </RouterLink>
+    <RouterLink to="/servicios">NUESTROS SERVICIOS | </RouterLink>
+  </nav>
+  <Router-View/>
+
 </template>
-<style scoped>
-h1{
-    color:#0000ff
-}
- 
-</style>
 
